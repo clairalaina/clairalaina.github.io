@@ -76,7 +76,7 @@ section.containter-fluid {
 
 .navbar {
   z-index: 1000;
-  background: darkcyan;
+  background: rgb(4, 110, 110);
 }
 .ico {
   padding: 5%;
@@ -151,17 +151,36 @@ p {
   opacity: 0.7;
 }
 
+.carousel-slide{
+  width:100%;
+  height: 400px;
+
+}
+
+.imgbackground .carousel-item{
+  height:400px;
+  width:auto;
+}
+
+.imgbackground{
+  display: flex;
+  justify-content:center
+  width:600px;
+  height:400px;
+  background-color: rgb(4, 110, 110);
+}
+/*
 .modal{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px; /* Location of the box */
+  padding-top: 100px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.9); 
 }
 
@@ -173,7 +192,7 @@ p {
 }
 
 
-/* Add Animation - Zoom in the Modal */
+/* Add Animation - Zoom in the Modal 
 .modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
@@ -184,7 +203,7 @@ p {
   to {transform:scale(1)}
 }
 
-/* The Close Button */
+/* The Close Button 
 .close {
   position: absolute;
   top: 15px;
@@ -202,9 +221,10 @@ p {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+/* 100% Image Width on Smaller Screens 
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
   }
 }
+*/
